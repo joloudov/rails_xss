@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["joloudov"]
-  s.date = "2012-08-28"
+  s.date = "2012-09-11"
   s.description = "This plugin replaces the default ERB template handlers with erubis, and switches the behaviour to escape by default rather than requiring you to escape. This is consistent with the behaviour in Rails 3.0."
   s.email = "joloudov@gmail.com"
   s.extra_rdoc_files = [
@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
     "lib/rails_xss/action_view.rb",
     "lib/rails_xss/erubis.rb",
     "lib/rails_xss/string_ext.rb",
-    "lib/tasks/rails_xss_tasks.rake"
+    "lib/tasks/rails_xss_tasks.rake",
+    "rails/init.rb"
   ]
   s.homepage = "http://github.com/joloudov/rails_xss"
   s.require_paths = ["lib"]

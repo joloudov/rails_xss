@@ -16,6 +16,7 @@ begin
       '*.rb',
       'lib/*.rb',
       'lib/**/*.rb',
+      'rails/**/*.rb',
       'lib/**/*.rake',
     ]
   end
