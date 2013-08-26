@@ -10,7 +10,7 @@ begin
     gem.email = "joloudov@gmail.com"
     gem.homepage = "http://github.com/joloudov/rails_xss"
     gem.authors = ["joloudov"]
-    gem.add_development_dependency "erubis", ">= 2.6.5"
+    gem.add_dependency "erubis", ">= 2.6.5"
     gem.files = [
       '[A-Z]*',
       '*.rb',
