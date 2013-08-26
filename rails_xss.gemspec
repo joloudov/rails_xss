@@ -33,16 +33,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.25"
   s.summary = "A plugin for rails 2.3 apps which switches the default to escape by default"
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<erubis>, [">= 2.6.5"])
-    else
-      s.add_dependency(%q<erubis>, [">= 2.6.5"])
-    end
-  else
-    s.add_dependency(%q<erubis>, [">= 2.6.5"])
-  end
+  s.add_dependency(%q<erubis>, [">= 2.6.5"])
 end
 
